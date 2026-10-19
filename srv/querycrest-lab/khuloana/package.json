@@ -1,0 +1,16 @@
+{
+  "name": "khuloana-fitness-booking",
+  "version": "1.0.0",
+  "description": "Fitness programme catalogue and booking system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  }
+}
